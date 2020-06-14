@@ -365,4 +365,10 @@ config MACH_XIAOMI_RIVA
 	help
 	  This enables support for Xiaomi Redmi 5A riva.
 
+config MACH_XIAOMI_ROLEX
+	bool "Enable Support for Xiaomi Redmi 4A rolex"
+	select MACH_XIAOMI_MSM8917
+	help
+	  This enables support for Xiaomi Redmi 4A rolex.
+
 endmenu
